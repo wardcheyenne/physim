@@ -1,0 +1,5 @@
+add_executable(solar_system solar_system.cpp)
+target_link_libraries(solar_system PRIVATE physim_core)
+
+add_executable(charged_particles charged_particles.cpp)
+target_link_libraries(charged_particles PRIVATE physim_core)
